@@ -1,2 +1,4 @@
-var name = prompt('What is your name?')
-alert('It is a pleasure to meet you, ' + name + '!')
+confirm('Oh Hi!, is there someone out here?')
+confirm('Youre still here?')
+var name = prompt('Ok then, so whats your name?')
+alert('Its so nice to have u here, ' + name + '!')
