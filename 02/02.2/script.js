@@ -14,6 +14,6 @@ var sum = plus + plus1
 alert(`The sum of the numbers u thought of is: ${sum}.`)
 
 var name = prompt('To finish, tell me: Whats your full name?')
-document.write(`<h3>Welcome, <strong>${name}</strong>! Your full name has ${name.length} letters. </h3><br>`)
+document.write(`<h3>Welcome, <strong>${name}</strong>! Your full name has ${name.length} letters. </h3><br>`) //Only problem has to do that full name has space between the names, so the progam is counting the spaces as letters 
 document.write(`<h3>Your full name on uppercase is ${name.toUpperCase()}. </h3>`)
 document.write(`<h3>Your full name on lowercase is ${name.toLowerCase()}. </h3>`)
